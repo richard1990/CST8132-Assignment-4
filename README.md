@@ -1,0 +1,4 @@
+# CST8132 Assignment #4 - Shapes Program
+This was my fourth assignment I created in my "Object-Oriented Programming" course at Algonquin College. Written in Java, the program allows the user to "create" five different shapes - a circle, sphere, cylinder, cube, or rectangular prism. They are presented with a menu that allows them to select which shape to create, and after choosing a shape can enter the shape's dimensions. A maximum of 100 shapes can be added before the program quits. Once the program ends, every shape created will be displayed along with its dimensions and its area or volume.
+
+This program built on inheritance as most of the classes make use of the OurShape class, which itself is an abstract class. The classes also implement the Calculatable interface that contains the first five digits of pi and a method to calcuate the area or volume of a shape.
